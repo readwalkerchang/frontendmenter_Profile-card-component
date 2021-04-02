@@ -1,0 +1,26 @@
+.flex-container-avatar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ 
+ .flex-container-card{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+ }
+
+ .flex-container-element{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-card > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+.avatar{
+    /*justify-content: center;*/
+}
