@@ -1,7 +1,8 @@
-.flex-container-avatar{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.container{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
  
  .flex-container-card{
@@ -12,6 +13,7 @@
 
  .flex-container-element{
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -21,6 +23,16 @@
     font-size: 20px;
   }
 
-.avatar{
-    /*justify-content: center;*/
+  #avatar-bg{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:100px;
+    z-index: -1;
+    width:30%;
+    height:100px;
+}
+
+#avatar-img{
+    padding-top:11%;
 }
