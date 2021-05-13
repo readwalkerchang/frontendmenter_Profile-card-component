@@ -5,9 +5,17 @@
     --color-primary: hsl(185, 75%, 39%);
     --color-dark: hsl(229, 23%, 23%);
     --color-grey:hsl(227, 10%, 46%);
-    --font-bold: 'Kumbh Sans', sans-serif;
+    --font-bold: 700;
+    --font-light: 400;
 
   }
+#bold{
+    font-weight: var(--font-bold);
+}
+
+#light{
+    font-weight: var(--font-light);
+}
 
 body{
     background-color: rgba(27,161,173,255);
