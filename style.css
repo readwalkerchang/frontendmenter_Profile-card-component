@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
 /* font & colour*/
 :root {
     --color-primary: hsl(185, 75%, 39%);
@@ -9,12 +8,27 @@
     --font-light: 400;
 
   }
-#bold{
+.bold{
     font-weight: var(--font-bold);
+    color:var(--color-dark);
+    font-size: 18px;
 }
 
-#light{
+.light-grey{
     font-weight: var(--font-light);
+    color: var(--color-grey);
+}
+
+.light-grey-md{
+    font-weight: var(--font-light);
+    color: var(--color-grey);
+    font-size: 15px;
+}
+
+.light-grey-sm{
+    font-weight: var(--font-light);
+    color: var(--color-grey);
+    font-size: 12px;
 }
 
 body{
